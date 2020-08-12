@@ -1,7 +1,7 @@
-package com.ajitesh.imagesearch.network
+package com.ajitesh.imagesearch.data.network
 
-import com.ajitesh.imagesearch.constants.Constants
-import com.ajitesh.imagesearch.models.ImageSearchResponse
+import com.ajitesh.imagesearch.util.Constants
+import com.ajitesh.imagesearch.model.ImageSearchResponse
 import io.reactivex.Single
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory

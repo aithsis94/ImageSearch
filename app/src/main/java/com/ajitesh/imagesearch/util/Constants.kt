@@ -1,4 +1,4 @@
-package com.ajitesh.imagesearch.constants
+package com.ajitesh.imagesearch.util
 
 sealed class Constants {
 
@@ -11,6 +11,6 @@ sealed class Constants {
         const val API_QUERY_VALUE_METHOD_SEARCH = "flickr.photos.search"
         const val API_QUERY_VALUE_FORMAT = "json"
         const val API_QUERY_VALUE_NO_JSON_CALLBACK = 1
-        const val API_QUERY_VALUE_PAGE_SIZE = 20
+        const val API_QUERY_VALUE_PAGE_SIZE = 10
     }
 }

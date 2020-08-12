@@ -1,19 +1,19 @@
-package com.ajitesh.imagesearch.models
+package com.ajitesh.imagesearch.model
 
-data class ImageSearchResponse(
+open class ImageSearchResponse(
     val stat: String,
-    val photo: Photos
+    val photos: PhotoPageInfo
 )
 
-data class Photos(
+open class PhotoPageInfo(
     val perpage: Int,
     val total: Int,
     val pages: Int,
-    val photo: List<Photo>,
+    val photo: List<PhotoInfo>,
     val page: Int
 )
 
-data class Photo(
+open class PhotoInfo(
     val owner: String,
     val server: String,
     val ispublic: String,
@@ -22,5 +22,6 @@ data class Photo(
     val id: String,
     val secret: String,
     val title: String,
-    val isfamily: String
+    val isfamily: String,
+    var url: String? = null
 )
