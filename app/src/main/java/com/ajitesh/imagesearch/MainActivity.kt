@@ -2,6 +2,7 @@ package com.ajitesh.imagesearch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
